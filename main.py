@@ -1,4 +1,3 @@
-message_file = "coding_qual_input.txt"
 def decode_message(message_file):
     message_file = open(message_file)
     message_dictionary = {}
