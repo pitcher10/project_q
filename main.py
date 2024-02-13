@@ -32,4 +32,4 @@ def decode_message(message_file):
         #adds the word to the decoded message by using the last value of the row as the key to the dictionary
         message_word = message_dictionary[str(last_value_of_pyramid_row)]
         decoded_message += f'{message_word} '
-    return decoded_message
+    return decoded_message.strip()
